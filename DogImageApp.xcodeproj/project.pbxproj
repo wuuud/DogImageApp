@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0BC10929123B26004291E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BC10829123B26004291E5 /* Constants.swift */; };
+		4C0BC10B29123C2A004291E5 /* DogApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BC10A29123C2A004291E5 /* DogApiResponse.swift */; };
 		4C5ECFC6290E9F9A00BA0DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5ECFC5290E9F9A00BA0DEE /* AppDelegate.swift */; };
 		4C5ECFC8290E9F9A00BA0DEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5ECFC7290E9F9A00BA0DEE /* SceneDelegate.swift */; };
 		4C5ECFCA290E9F9A00BA0DEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5ECFC9290E9F9A00BA0DEE /* ViewController.swift */; };
 		4C5ECFCD290E9F9A00BA0DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5ECFCB290E9F9A00BA0DEE /* Main.storyboard */; };
 		4C5ECFCF290E9F9A00BA0DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5ECFCE290E9F9A00BA0DEE /* Assets.xcassets */; };
 		4C5ECFD2290E9F9A00BA0DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5ECFD0290E9F9A00BA0DEE /* LaunchScreen.storyboard */; };
+		B11DBADC01C0902994AB1602 /* Pods_DogImageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053C807B5E12D1CCC3666DC1 /* Pods_DogImageApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053C807B5E12D1CCC3666DC1 /* Pods_DogImageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogImageApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20334F6BF3E01823FECE9F8E /* Pods-DogImageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogImageApp.release.xcconfig"; path = "Target Support Files/Pods-DogImageApp/Pods-DogImageApp.release.xcconfig"; sourceTree = "<group>"; };
+		4C0BC10829123B26004291E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C0BC10A29123C2A004291E5 /* DogApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApiResponse.swift; sourceTree = "<group>"; };
 		4C5ECFC2290E9F9A00BA0DEE /* DogImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogImageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5ECFC5290E9F9A00BA0DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C5ECFC7290E9F9A00BA0DEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		4C5ECFCE290E9F9A00BA0DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5ECFD1290E9F9A00BA0DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C5ECFD3290E9F9A00BA0DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6459F3434031215F15D44711 /* Pods-DogImageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogImageApp.debug.xcconfig"; path = "Target Support Files/Pods-DogImageApp/Pods-DogImageApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11DBADC01C0902994AB1602 /* Pods_DogImageApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37199B8FA0A2A9CEE6E47E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				053C807B5E12D1CCC3666DC1 /* Pods_DogImageApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C5ECFB9290E9F9A00BA0DEE = {
 			isa = PBXGroup;
 			children = (
 				4C5ECFC4290E9F9A00BA0DEE /* DogImageApp */,
 				4C5ECFC3290E9F9A00BA0DEE /* Products */,
+				8FEC5C17950C57B0F8948C6D /* Pods */,
+				37199B8FA0A2A9CEE6E47E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,23 @@
 				4C5ECFC5290E9F9A00BA0DEE /* AppDelegate.swift */,
 				4C5ECFC7290E9F9A00BA0DEE /* SceneDelegate.swift */,
 				4C5ECFC9290E9F9A00BA0DEE /* ViewController.swift */,
+				4C0BC10A29123C2A004291E5 /* DogApiResponse.swift */,
+				4C0BC10829123B26004291E5 /* Constants.swift */,
 				4C5ECFCB290E9F9A00BA0DEE /* Main.storyboard */,
 				4C5ECFCE290E9F9A00BA0DEE /* Assets.xcassets */,
 				4C5ECFD0290E9F9A00BA0DEE /* LaunchScreen.storyboard */,
 				4C5ECFD3290E9F9A00BA0DEE /* Info.plist */,
 			);
 			path = DogImageApp;
+			sourceTree = "<group>";
+		};
+		8FEC5C17950C57B0F8948C6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6459F3434031215F15D44711 /* Pods-DogImageApp.debug.xcconfig */,
+				20334F6BF3E01823FECE9F8E /* Pods-DogImageApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5ECFD6290E9F9A00BA0DEE /* Build configuration list for PBXNativeTarget "DogImageApp" */;
 			buildPhases = (
+				D2C9C194172DFDE4344CFD70 /* [CP] Check Pods Manifest.lock */,
 				4C5ECFBE290E9F9A00BA0DEE /* Sources */,
 				4C5ECFBF290E9F9A00BA0DEE /* Frameworks */,
 				4C5ECFC0290E9F9A00BA0DEE /* Resources */,
+				935F6E41DBAE10CC68D6FE20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +135,7 @@
 				};
 			};
 			buildConfigurationList = 4C5ECFBD290E9F9A00BA0DEE /* Build configuration list for PBXProject "DogImageApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		935F6E41DBAE10CC68D6FE20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogImageApp/Pods-DogImageApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogImageApp/Pods-DogImageApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogImageApp/Pods-DogImageApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C9C194172DFDE4344CFD70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogImageApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C5ECFBE290E9F9A00BA0DEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0BC10929123B26004291E5 /* Constants.swift in Sources */,
 				4C5ECFCA290E9F9A00BA0DEE /* ViewController.swift in Sources */,
+				4C0BC10B29123C2A004291E5 /* DogApiResponse.swift in Sources */,
 				4C5ECFC6290E9F9A00BA0DEE /* AppDelegate.swift in Sources */,
 				4C5ECFC8290E9F9A00BA0DEE /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		4C5ECFD7290E9F9A00BA0DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6459F3434031215F15D44711 /* Pods-DogImageApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +370,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +387,7 @@
 		};
 		4C5ECFD8290E9F9A00BA0DEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20334F6BF3E01823FECE9F8E /* Pods-DogImageApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +399,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
